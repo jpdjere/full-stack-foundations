@@ -64,11 +64,11 @@ for veggie in veggieBurgers:
 
 
 #------------------------------------------DELETE------------------------------
-spinach = session.query(MenuItem).filter_by(name = 'Spinach Ice Cream').one()
+#spinach = session.query(MenuItem).filter_by(name = 'Spinach Ice Cream').one()
 print()
-print(spinach.restaurant.name)
+#print(spinach.restaurant.name)
 
-session.delete(spinach)
+#session.delete(spinach)
 session.commit()
 
 #spinach = session.query(MenuItem).filter_by(name = 'Spinach Ice Cream').one()
